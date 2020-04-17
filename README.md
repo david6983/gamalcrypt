@@ -1,6 +1,6 @@
 # Gamalcrypt project
 
-two simple cryptography algorithm in java
+two simple cryptography algorithms in java.
 
 ## Context
 
