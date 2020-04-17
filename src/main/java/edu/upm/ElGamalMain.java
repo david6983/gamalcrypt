@@ -1,8 +1,13 @@
 package edu.upm;
 
-import edu.upm.security.gamal.Elgamal;
+import edu.upm.security.cryptography.Elgamal;
 
-public class Question1 {
+/**
+ * Simple test function for ElGamal algorithm.
+ *
+ * @author Mathias Boillot
+ */
+public class ElGamalMain {
 
     public static void main(String[] args) {
         Elgamal key = new Elgamal();

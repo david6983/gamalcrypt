@@ -4,6 +4,8 @@ import javax.swing.*;
 
 /**
  * Utility class to encrypt and decrypt a text.
+ *
+ * @author David Haioum
  */
 public class Cryptorithm {
     /**

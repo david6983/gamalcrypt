@@ -4,7 +4,12 @@ import edu.upm.security.cryptography.Cryptorithm;
 
 import javax.swing.*;
 
-public class Question2 {
+/**
+ * Simple interface tester for the cryptorithm algorithm.
+ *
+ * @author David Haioum
+ */
+public class CryptorithmMain {
 
     public static void main(String[] args) {
         String plaintext = JOptionPane.showInputDialog(new JFrame(),

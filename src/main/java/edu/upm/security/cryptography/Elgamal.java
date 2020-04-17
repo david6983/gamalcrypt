@@ -1,10 +1,15 @@
-package edu.upm.security.gamal;
+package edu.upm.security.cryptography;
 
 import java.util.List;
 import java.util.Random;
 
-import static java.lang.Math.*;
+import static java.lang.Math.pow;
 
+/**
+ * ElGamal cryptography algorithm.
+ *
+ * @author Mathias Boillot
+ */
 public class Elgamal {
 
     private int Random_k;
