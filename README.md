@@ -5,7 +5,7 @@ two simple cryptography algorithms in java.
 ## Context
 
 The project was originally an assignment from our lecturer in computer system security
-at the [Uuniversity of Putra Malaysia (UPM)](http://www.upm.edu.my/) in Malaysia.
+at the [University of Putra Malaysia (UPM)](http://www.upm.edu.my/) in Malaysia.
 
 We decided to make this simple classes open-source for contribution.
 
