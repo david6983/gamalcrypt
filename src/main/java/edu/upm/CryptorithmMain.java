@@ -3,6 +3,7 @@ package edu.upm;
 import edu.upm.security.cryptography.Cryptorithm;
 
 import javax.swing.*;
+import java.util.Scanner;
 
 /**
  * Simple interface tester for the cryptorithm algorithm.
@@ -12,6 +13,7 @@ import javax.swing.*;
 public class CryptorithmMain {
 
     public static void main(String[] args) {
+        /*
         String plaintext = JOptionPane.showInputDialog(new JFrame(),
                 "Please enter a message for encryption",
                 "Input",
@@ -32,5 +34,15 @@ public class CryptorithmMain {
                 "The original message for the ciphertext is : " + Cryptorithm.decrypt(ciphertext),
                 "Output",
                 JOptionPane.INFORMATION_MESSAGE);
+
+         */
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Message to ecrypt: ");
+        String msg = sc.next();
+        System.out.print("Encrypted message : ");
+        String cypher = Cryptorithm.encrypt(msg);
+        System.out.println(cypher);
+        System.out.print("Decryption of the message : ");
+        System.out.println(Cryptorithm.decrypt(cypher));
     }
 }
