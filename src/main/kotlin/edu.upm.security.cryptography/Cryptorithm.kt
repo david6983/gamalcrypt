@@ -54,7 +54,11 @@ object Cryptorithm {
         val builder = StringBuilder()
 
         //separate the text in 2-position long hexadecimal number
-        val hexArray = ciphertext.split("(?<=\\G..)").toTypedArray()
+        val hexArray = ciphertext.split(regex = "(?<=\\G..)".toRegex().toTypedArray()
+        hexArray.toMutableList().let {
+            it.remove("")
+            hexArray = it.toTypedArray()
+        }
 
         // for every hexadecimal numbers
         for (str in hexArray) {
